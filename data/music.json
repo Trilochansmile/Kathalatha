@@ -1,0 +1,28 @@
+{
+  "collection": "music",
+  "items": [
+    {
+      "id": "sample-audio-entry",
+      "status": "sample",
+      "title": "Sample entry: how a song recording looks",
+      "format": "audio",
+      "lang": "en",
+      "description": "A placeholder showing an audio record. A real record has a player and the written transcript of the words beneath it. No audio is attached to this sample.",
+      "transcript": "(The words of the song, or of what is said, go here. Put the original language first.)",
+      "transcript_english": "(English translation goes here, labelled as a translation.)",
+      "details": {
+        "Performers": "(names, as they wish to be credited)",
+        "Occasion": "(add only if you know it)"
+      },
+      "creator": "(singer or performer)",
+      "role": "performer",
+      "date": "(date recorded)",
+      "source": "(who recorded it)",
+      "rights_status": "pending",
+      "rights": "(consent and licence)",
+      "subject": [
+        "sample"
+      ]
+    }
+  ]
+}

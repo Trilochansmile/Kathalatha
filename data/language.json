@@ -1,0 +1,29 @@
+{
+  "collection": "language",
+  "items": [
+    {
+      "id": "sample-language-entry",
+      "status": "sample",
+      "featured": true,
+      "title": "Sample entry: how a word or phrase record looks",
+      "format": "text",
+      "lang": "en",
+      "description": "A placeholder that shows how a vocabulary or language-note record will appear. It contains no real Kosli words and no linguistic information.",
+      "details": {
+        "Headword (original spelling)": "(the Kosli word goes here, exactly as written by your source)",
+        "Meaning in English": "(meaning goes here)",
+        "Part of speech": "(add only if you have a source)",
+        "Example sentence": "(add only if you have a source)"
+      },
+      "creator": "(name of the speaker or source)",
+      "role": "speaker",
+      "date": "(date recorded, or \"unknown\")",
+      "source": "(who told you this word, or which book it came from)",
+      "rights_status": "pending",
+      "rights": "(who holds the rights)",
+      "subject": [
+        "sample"
+      ]
+    }
+  ]
+}

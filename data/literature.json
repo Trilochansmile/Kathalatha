@@ -1,0 +1,24 @@
+{
+  "collection": "literature",
+  "items": [
+    {
+      "id": "sample-literature-entry",
+      "status": "sample",
+      "title": "Sample entry: how a poem or story record looks",
+      "format": "text",
+      "lang": "en",
+      "description": "A placeholder that shows how a literary work is displayed, with the original text first and the English translation labelled as a translation.",
+      "text": "(The original text of the poem or story goes here, in its original language and script.)\n\n(A second paragraph, or a second stanza, is separated by one empty line.)",
+      "text_english": "(The English translation goes here. Name the translator and the date in the record details.)",
+      "creator": "(author's name)",
+      "role": "author",
+      "date": "(year of first publication, or \"unknown\")",
+      "source": "(where you found the text)",
+      "rights_status": "pending",
+      "rights": "(copyright holder and licence)",
+      "subject": [
+        "sample"
+      ]
+    }
+  ]
+}

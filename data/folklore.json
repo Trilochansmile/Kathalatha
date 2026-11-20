@@ -1,0 +1,26 @@
+{
+  "collection": "folklore",
+  "items": [
+    {
+      "id": "sample-video-entry",
+      "status": "sample",
+      "title": "Sample entry: how a recorded story (video) looks",
+      "format": "video",
+      "lang": "en",
+      "description": "A placeholder showing a video record. A real record plays the video with captions and shows a transcript underneath. No video is attached to this sample.",
+      "transcript": "(The transcript of what is said in the recording goes here, with the speaker's name for each part.)",
+      "accessibility_description": "(Describe what can be seen in the video: the people, the place, the actions, for visitors who cannot see the picture.)",
+      "creator": "(narrator's name, as they wish to be credited)",
+      "role": "narrator",
+      "date": "(date recorded)",
+      "locality": "(only if safe to share)",
+      "source": "(who recorded it)",
+      "provenance": "(how it reached the archive)",
+      "rights_status": "pending",
+      "rights": "(consent and licence)",
+      "subject": [
+        "sample"
+      ]
+    }
+  ]
+}

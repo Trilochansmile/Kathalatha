@@ -1,0 +1,27 @@
+{
+  "collection": "history",
+  "items": [
+    {
+      "id": "sample-photograph-entry",
+      "status": "sample",
+      "title": "Sample entry: how a photograph record looks",
+      "format": "photograph",
+      "lang": "en",
+      "description": "A placeholder showing a photograph record. The picture below is a plain graphic, not a real photograph.",
+      "image": "media/images/sample-placeholder.svg",
+      "image_alt": "A plain lilac rectangle with a dark plum border, and the words \"Sample image\" in the middle. It is a placeholder, not a photograph.",
+      "image_caption": "Placeholder graphic. Replace it with your own photograph.",
+      "accessibility_description": "(For a real photograph, describe who and what is shown, the place, the clothing, the activity and any writing visible. Write for someone who cannot see the picture.)",
+      "creator": "(photographer)",
+      "role": "photographer",
+      "date": "(year, or \"about 1960\", or \"unknown\")",
+      "source": "(who lent or gave the photograph)",
+      "provenance": "(how it reached the archive)",
+      "rights_status": "pending",
+      "rights": "(who holds the rights)",
+      "subject": [
+        "sample"
+      ]
+    }
+  ]
+}

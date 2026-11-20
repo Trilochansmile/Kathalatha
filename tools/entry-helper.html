@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Entry helper — KATHALATHHA</title>
+<link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header"><div class="wrap"><p class="brand"><a class="brand-link" href="../index.html"><span class="brand-name">KATHALATHHA</span> <span class="brand-odia" lang="or">କଥାଲଥା</span></a> <span class="brand-sub">Entry helper (for the curator)</span></p></div></header>
+<main id="main" tabindex="-1">
+<div class="wrap page">
+  <h1>Entry helper</h1>
+  <p class="lead">Fill in the boxes, press the button, and copy the result into your data file. Nothing you type here is saved or sent anywhere.</p>
+
+  <h2>1. Make a new record</h2>
+  <form id="make" class="search-panel" novalidate>
+    <div class="field"><label for="f-coll">Which collection?</label>
+      <select id="f-coll"><option value="language">Kosli Language (data/language.json)</option><option value="literature">Literature (data/literature.json)</option><option value="folklore">Folklore and Oral Traditions (data/folklore.json)</option><option value="music">Music and Performance (data/music.json)</option><option value="history">History and Heritage (data/history.json)</option><option value="people">People and Personalities (data/people.json)</option><option value="article">An article (data/articles.json)</option></select></div>
+    <div class="field"><label for="f-title">Title</label><span class="hint">Write it in the original language first.</span><input type="text" id="f-title"></div>
+    <div class="field"><label for="f-title_english">English title (translation)</label><input type="text" id="f-title_english"></div>
+    <div class="field"><label for="f-format">Format</label><select id="f-format"><option>photograph</option><option>audio</option><option>video</option><option>document</option><option selected>text</option><option>manuscript</option><option>publication</option><option>other</option></select></div>
+    <div class="field"><label for="f-lang">Language code of the title and text</label><span class="hint">or = Odia script, en = English, hi = Hindi</span><input type="text" id="f-lang" value="or"></div>
+    <div class="field"><label for="f-status">Verification status</label><select id="f-status"><option>awaiting-verification</option><option>verified</option><option>community-account</option><option>contested</option><option>sample</option></select></div>
+    <div class="field field-wide"><label for="f-description">Short description</label><textarea id="f-description"></textarea></div>
+    <div class="field"><label for="f-creator">Creator or contributor</label><input type="text" id="f-creator"></div>
+    <div class="field"><label for="f-role">Role</label><span class="hint">speaker, author, performer, photographer…</span><input type="text" id="f-role"></div>
+    <div class="field"><label for="f-date">Date (as known)</label><input type="text" id="f-date"></div>
+    <div class="field"><label for="f-locality">Place (only if safe to share)</label><input type="text" id="f-locality"></div>
+    <div class="field"><label for="f-source">Source</label><input type="text" id="f-source"></div>
+    <div class="field"><label for="f-rights_status">Rights status</label><select id="f-rights_status"><option>pending</option><option>cleared-open</option><option>cleared-restricted</option><option>not-cleared</option></select></div>
+    <div class="field"><label for="f-rights">Rights holder and licence</label><input type="text" id="f-rights"></div>
+    <div class="field"><label for="f-image">Image file path</label><span class="hint">Example: media/images/photo-0001.jpg</span><input type="text" id="f-image"></div>
+    <div class="field"><label for="f-image_alt">Image description (alt text)</label><input type="text" id="f-image_alt"></div>
+    <div class="field"><label for="f-audio">Audio file path</label><input type="text" id="f-audio"></div>
+    <div class="field"><label for="f-video">Video file path</label><input type="text" id="f-video"></div>
+    <div class="field"><label for="f-captions">Caption file path (.vtt)</label><input type="text" id="f-captions"></div>
+    <div class="field"><label for="f-transcript_file">Transcript file path</label><span class="hint">Example: media/texts/song-0001.txt</span><input type="text" id="f-transcript_file"></div>
+    <div class="field"><label for="f-text_file">Full text file path</label><input type="text" id="f-text_file"></div>
+    <div class="field field-wide"><label for="f-accessibility_description">Accessibility description</label><span class="hint">For photographs and video: what can be seen.</span><textarea id="f-accessibility_description"></textarea></div>
+    <div class="form-actions field-wide"><button type="submit" class="btn">Make the entry</button></div>
+  </form>
+  <div id="made" hidden>
+    <h3>Your entry</h3>
+    <p>Copy everything in the box. Then follow step 3 of the editing guide to paste it into the file.</p>
+    <label for="out" class="visually-hidden">Generated entry</label>
+    <textarea id="out" readonly rows="14"></textarea>
+    <p class="form-actions"><button type="button" class="btn btn-secondary" id="copy">Copy to clipboard</button></p>
+    <p role="status" id="copied" class="status"></p>
+  </div>
+
+  <h2>2. Check a data file for mistakes</h2>
+  <p>Open a data file on GitHub, select all the text, copy it, and paste it below. The checker tells you if a comma or a quotation mark is missing.</p>
+  <div class="field"><label for="chk">Paste the whole file here</label><textarea id="chk" rows="10"></textarea></div>
+  <p class="form-actions"><button type="button" class="btn" id="check">Check it</button></p>
+  <p role="status" id="chk-out" class="status"></p>
+</div>
+</main>
+<footer class="site-footer"><div class="wrap"><p><a href="../index.html">Back to the archive</a></p></div></footer>
+<script src="entry-helper.js"></script>
+</body>
+</html>

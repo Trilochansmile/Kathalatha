@@ -1,0 +1,24 @@
+{
+  "_help": "One entry per article. The article text itself is a separate file in the articles folder (see the editing guide).",
+  "categories": [
+    "Research article",
+    "Essay",
+    "Literary criticism",
+    "Commentary",
+    "Language writing",
+    "Documentation note"
+  ],
+  "articles": [
+    {
+      "id": "sample-article",
+      "status": "sample",
+      "title": "Sample article: how an essay looks",
+      "lang": "en",
+      "author": "(author's name)",
+      "date": "2026-01-01",
+      "category": "Essay",
+      "summary": "A placeholder article that shows headings, lists, quotations and links. It also doubles as a short guide to the formatting you can use in your own articles.",
+      "file": "articles/sample-article.md"
+    }
+  ]
+}

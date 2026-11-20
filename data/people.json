@@ -1,0 +1,25 @@
+{
+  "collection": "people",
+  "items": [
+    {
+      "id": "sample-person-entry",
+      "status": "sample",
+      "title": "Sample entry: how a person's record looks",
+      "format": "text",
+      "lang": "en",
+      "description": "A placeholder showing a record for a writer, artist or performer. Add only information from a source you can name, and only with the person's consent (or their family's) where it applies.",
+      "details": {
+        "Role": "(for example writer, singer, teacher)",
+        "Life dates": "(only as sourced)",
+        "Works": "(list of works, only as sourced)"
+      },
+      "text": "(A short biography goes here. Every statement should be traceable to a source named in the Source field.)",
+      "source": "(interview, book or document the information comes from)",
+      "rights_status": "pending",
+      "rights": "(permission to publish)",
+      "subject": [
+        "sample"
+      ]
+    }
+  ]
+}

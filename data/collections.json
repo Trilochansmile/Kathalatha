@@ -1,0 +1,52 @@
+{
+  "_help": "This file lists the collections. You normally never need to edit it, except to rename a collection or the language names. To add a new record, open the collection's own file (for example data/literature.json).",
+  "languages": {
+    "en": "English",
+    "or": "Odia script",
+    "hi": "Hindi"
+  },
+  "collections": [
+    {
+      "id": "language",
+      "title": "Kosli Language",
+      "page": "kosli-language.html",
+      "file": "data/language.json",
+      "description": "Words, phrases, sounds and writing of the Kosli language, with their sources."
+    },
+    {
+      "id": "literature",
+      "title": "Literature",
+      "page": "literature.html",
+      "file": "data/literature.json",
+      "description": "Poems, stories, plays, books and periodicals."
+    },
+    {
+      "id": "folklore",
+      "title": "Folklore and Oral Traditions",
+      "page": "folklore-and-oral-traditions.html",
+      "file": "data/folklore.json",
+      "description": "Stories, sayings and other oral materials, with the narrator credited."
+    },
+    {
+      "id": "music",
+      "title": "Music and Performance",
+      "page": "music-and-performance.html",
+      "file": "data/music.json",
+      "description": "Songs, instruments and performances, with transcripts."
+    },
+    {
+      "id": "history",
+      "title": "History and Heritage",
+      "page": "history-and-heritage.html",
+      "file": "data/history.json",
+      "description": "Documents, photographs, places and practices."
+    },
+    {
+      "id": "people",
+      "title": "People and Personalities",
+      "page": "people-and-personalities.html",
+      "file": "data/people.json",
+      "description": "Writers, artists, performers and other personalities."
+    }
+  ]
+}
