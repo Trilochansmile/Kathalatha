@@ -19,6 +19,17 @@
       "category": "Essay",
       "summary": "A placeholder article that shows headings, lists, quotations and links. It also doubles as a short guide to the formatting you can use in your own articles.",
       "file": "articles/sample-article.md"
+    },
+    {
+      "id": "echoes-in-palm-and-press",
+      "status": "published",
+      "title": "Echoes in Palm and Press: Reading Odia into Being through Print Performances from the Nineteenth-Century Odia Archive",
+      "lang": "en",
+      "author": "Trilochan Kumbhar",
+      "date": "2026-11-21",
+      "category": "Research article",
+      "summary": "An article examining print performances and the making of Odia through the nineteenth-century Odia archive.",
+      "file": "articles/my-first-article.md.txt"
     }
   ]
 }
